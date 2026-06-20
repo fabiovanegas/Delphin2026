@@ -23,6 +23,14 @@ wheels/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
+
+# DAIC-WOZ Dataset
+DAIC-WOZ/
+data/
+
+# Archivos multimedia grandes
+*.wav
+*.mp4
 *.egg
 MANIFEST
 
