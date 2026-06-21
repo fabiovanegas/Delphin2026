@@ -54,6 +54,21 @@ Delphin2026/
 ```bash
 pip install -r requirements.txt
 ```
+## Avance
+
+### Semana 1
+- Configuración de Google Colab.
+- Exploración del corpus DAIC-WOZ.
+- Análisis de transcripciones.
+- Análisis de audio.
+- Exploración de etiquetas PHQ-8.
+- Configuración de GitHub.
+
+### Semana 2
+- Revisión de benchmarks del área.
+- Estudio de características acústicas.
+- Exploración de COVAREP y FORMANT.
+- Preparación para extracción de características.
 
 ## Autor
 
