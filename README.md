@@ -1,64 +1,68 @@
-cat > README.md << 'EOF'
-# Delphin 2026 - Análisis Multimodal de Voz y Texto
-
-## Descripción
-
+Delphin 2026 - Análisis Multimodal de Voz y Texto
+Descripción
 Proyecto desarrollado en el Programa Delfín 2026 orientado al análisis multimodal de señales de voz y texto para la detección de indicadores de depresión y angustia psicológica utilizando el corpus DAIC-WOZ.
 
-## Objetivos
+Objetivos
+Analizar el corpus DAIC-WOZ.
 
-- Analizar el corpus DAIC-WOZ.
-- Extraer características acústicas y textuales.
-- Implementar modelos de aprendizaje automático para la detección de depresión.
-- Comparar resultados con benchmarks reportados en la literatura científica.
-- Desarrollar un pipeline reproducible para investigación en salud mental computacional.
+Extraer características acústicas y textuales.
 
-## Dataset
+Implementar modelos de aprendizaje automático para la detección de depresión.
 
+Comparar resultados con benchmarks reportados en la literatura científica.
+
+Desarrollar un pipeline reproducible para investigación en salud mental computacional.
+
+Dataset
 DAIC-WOZ (Distress Analysis Interview Corpus - Wizard of Oz)
 
 Modalidades utilizadas:
 
-- Audio (.wav)
-- Transcripciones (.csv)
+Audio (.wav)
+
+Transcripciones (.csv)
 
 Nota: El dataset no se encuentra incluido en este repositorio debido a restricciones de tamaño y licenciamiento.
 
-## Estructura del Proyecto
+Estructura del Proyecto
 Delphin2026/
-│
-├── notebooks/ # Cuadernos de Jupyter por semana
+├── notebooks/
 │ ├── Delphin_semana1.ipynb
 │ ├── Procesamiento_audio_Semana_2.ipynb
 │ ├── 3_Semana_3_Tratamiento_Texto.ipynb
 │ ├── 4_Semana_4_Comparativa_Baselines.ipynb
 │ └── 5_Semana_5_Fusion_Multimodal.ipynb
-├── src/ # Código fuente y utilidades
-├── reports/ # Reportes y documentación
-├── results/ # Resultados y modelos guardados
+├── src/
+├── reports/
+├── results/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
 
-text
+Tecnologías
+Python 3.10+
 
-## Tecnologías
+Pandas
 
-- Python 3.10+
-- Pandas
-- NumPy
-- Scikit-Learn
-- PyTorch
-- HuggingFace Transformers
-- XGBoost
-- Librosa
-- Google Colab
-- Git y GitHub
+NumPy
 
-## Instalación
+Scikit-Learn
 
-```bash
+PyTorch
+
+HuggingFace Transformers
+
+XGBoost
+
+Librosa
+
+Google Colab
+
+Git y GitHub
+
+Instalación
 pip install -r requirements.txt
+
 Avance del Proyecto
 Semana 1: Exploración Inicial
 Configuración de Google Colab.
@@ -187,4 +191,3 @@ Gratch, J., et al. (2014). "The Distress Analysis Interview Corpus of human and 
 DAIC-WOZ Dataset: https://dcapswoz.ict.usc.edu/
 
 Programa Delfín 2026: https://www.programadelfin.org.mx/
-EOF
