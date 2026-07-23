@@ -1,4 +1,3 @@
-````markdown
 # DELPHIN 2026 — Análisis Multimodal de Voz y Texto
 
 ## Descripción
