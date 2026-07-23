@@ -57,9 +57,9 @@ Delphin2026/
 │
 ├── src/
 ├── reports/
-│   ├── 1. Resultados simulacion Delphin_semana1.pdf
-│   ├── 2. Procesamiento audio Semana 2.pdf
-│   ├── 3. Semana 3 Tratamiento Texto .pdf
+│   ├── 1. Semana 1 Resultados simulacion inicial.pdf
+│   ├── 2. Semana 2 Procesamiento audio.pdf
+│   ├── 3. Semana 3 Tratamiento Texto.pdf
 │   ├── 4. Semana 4 Comparativa Baselines.pdf
 │   ├── 5. Semana 5 Fusión Multimodal (Audio + Texto) .pdf
 │   └── README.md
